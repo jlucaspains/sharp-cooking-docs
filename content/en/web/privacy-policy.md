@@ -2,7 +2,7 @@
 title: Privacy Policy
 weight: 10
 aliases: 
-- "/privacy-policy"
+- "/webprivacypolicy"
 ---
 
 **Last updated**  
