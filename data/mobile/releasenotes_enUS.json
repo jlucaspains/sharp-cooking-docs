@@ -1,0 +1,121 @@
+[
+    {
+        "version": "1.7",
+        "latest": false,
+        "new": [
+            "Focus mode preview",
+            "Page for previews",
+            "Better handling of dark mode for Android",
+            "Use Search Bar instead of Shell search for Android",
+            "Recipe Printing",
+            "Fixed URL opening in Settings",
+            "Use GlideX for faster image handling",
+            "Recipe Image preview in detail page"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.6",
+        "latest": true,
+        "new": [
+            "Fixed issue where backup restores would fail in Android",
+            "Refresh recipes after backup restore",
+            "App translation for French, Italian, German, and Spanish"
+        ],
+        "knownIssues": [
+            "URLs won't open from Settings"
+        ]
+    },
+    {
+        "version": "1.5",
+        "latest": false,
+        "new": [
+            "New option to prevent the screen from locking",
+            "Fixed translate sort by page title",
+            "Fixed sorting features and descriptions in the main page",
+            "Dark mode",
+            "Default rating to 3 for new recipes",
+            "Prevent data load on the main page when it is not necessary",
+            "Replaced date picker in pick start time option"
+        ],
+        "knownIssues": [
+            "Backup restore in Android may fail"
+        ]
+    },
+    {
+        "version": "1.4",
+        "latest": false,
+        "new": [
+            "Share and receive whole recipes from/to the app"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.3",
+        "latest": false,
+        "new": [
+            "A default recipe is added on a new installation",
+            "Multiplier is saved for each recipe",
+            "Added Open Source credits page",
+            "Sharp Cooking will try to download images as https when site publishes them as http"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.2",
+        "latest": false,
+        "new": [
+            "Fix to prevent recipe images taken using camera being turned sideways",
+            "Improvements for multiplier use with fractions"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.1",
+        "latest": false,
+        "new": [
+            "Import recipes from allrecipes.com",
+            "Import recipes from foodnetwork.com",
+            "Import recipes from tudogostoso.com.br",
+            "Import recipes from panelinha.com.br",
+            "Import recipes from receitasnestle.com.br",
+            "Release notes in About section"
+        ],
+        "knownIssues": [
+            "Some backups may not save"
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "latest": false,
+        "new": [
+            "Fixed issue where backup would not work across different platforms",
+            "Fixed issue where backup files were incorrectly generated."
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.0",
+        "latest": false,
+        "new": [
+            "Add and edit recipes with ingredients, instructions, notes, and pictures.",
+            "Timeline based recipe display with the ability to adjust when to start cooking.",
+            "Make more or less portions of a recipe by using the Multiplier feature.",
+            "Share recipes using your favorite social network, SMS, or email.",
+            "100% offline with backup and restore options to keep your recipes private."
+        ],
+        "knownIssues": [
+            "Restoring backups created on a different platform does not work."
+        ]
+    }    
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "version": "1.0",
+        "latest": false,
+        "new": [
+            "Adicione e edite receitas com ingredientes, instruções, notas e fotos.",
+            "Exibição de receita baseada em linha do tempo com a capacidade de ajustar quando começar a cozinhar.",
+            "Faça mais ou menos porções de uma receita usando o recurso Multiplicador.",
+            "Compartilhe receitas usando sua rede social favorita, SMS ou e-mail.",
+            "100% offline com opções de backup e restauração para manter suas receitas privadas."
+        ],
+        "knownIssues": [
+            "Restaurar backups criados em uma plataforma diferente causa erros."
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "latest": false,
+        "new": [
+            "Corrigido o problema em que o backup não funcionava em plataformas diferentes",
+            "Corrigido o problema em que os arquivos de backup eram gerados incorretamente."
+        ],
+        "knownIssues": [
+            "Nenhum"
+        ]
+    },
+    {
+        "version": "1.1",
+        "latest": false,
+        "new": [
+            "Importar receitas de allrecipes.com",
+            "Importar receitas de foodnetwork.com",
+            "Importar receitas de tudogostoso.com.br",
+            "Importar receitas de panelinha.com.br",
+            "Importar receitas de receitasnestle.com.br",
+            "Notas de lançamento na seção Sobre"
+        ],
+        "knownIssues": [
+            "Backups podem não salvar corretamente"
+        ]
+    },
+    {
+        "version": "1.2",
+        "latest": false,
+        "new": [
+            "Correção para evitar que imagens de receita tiradas com a câmera sejam viradas de lado",
+            "Melhorias para o uso do multiplicador com frações"
+        ],
+        "knownIssues": [
+            "Nenhum"
+        ]
+    },
+    {
+        "version": "1.3",
+        "latest": false,
+        "new": [
+            "Uma receita padrão é adicionada em uma nova instalação",
+            "O multiplicador é salvo para cada receita",
+            "Adicionada página de créditos de código Open Source",
+            "O Cozinha Afiada tentará baixar as imagens como https quando o site as publicar como http"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.4",
+        "latest": true,
+        "new": [
+            "Compartilhe e receba receitas completas diretamente do app"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.5",
+        "latest": false,
+        "new": [
+            "Nova opção para evitar que a tela bloqueie",
+            "Recursos de classificação corrigidos e descrições na página principal",
+            "Modo escuro",
+            "Padrão de 3 estrelas para novas receitas",
+            "Impedir o carregamento de dados na página principal quando não for necessário",
+            "Substituído o seletor de data na opção de escolha de hora de início"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    },
+    {
+        "version": "1.6",
+        "latest": true,
+        "new": [
+            "Corrigido o problema em que as restaurações de backup falhavam no Android",
+            "Atualiza as receitas após a restauração do backup",
+            "Tradução do aplicativo para francês, italiano, alemão e espanhol"
+        ],
+        "knownIssues": [
+            "URLs não abrem na pagina de configurações"
+        ]
+    },
+    {
+        "version": "1.7",
+        "latest": false,
+        "new": [
+            "Amostra do modo de foco",
+            "Página para controle de amostras",
+            "Melhor tratamento do modo escuro para Android",
+            "Use a barra de pesquisa em vez da pesquisa do Shell para Android",
+            "Impressão de receita",
+            "Abertura de URL fixa em Configurações",
+            "Use GlideX para visualização de imagem mais rápido",
+            "Pré-visualização da imagem da receita na página de detalhes"
+        ],
+        "knownIssues": [
+            "None"
+        ]
+    }
+]

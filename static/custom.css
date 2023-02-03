@@ -1,0 +1,381 @@
+/* Global customization */
+
+:root {
+	--code-max-height: 60rem;
+	--drop-shadow: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+}
+
+/* Light mode theming */
+:root,
+:root[color-theme="light"] {
+	--header-background: #ffffff;
+	--header-font-color: #343a40;
+
+	--body-background: #ffffff;
+	--body-font-color: #343a40;
+
+	--mark-color: #ffab00;
+
+	--button-background: #62cb97;
+	--button-border-color: #4ec58a;
+
+	--link-color: #518169;
+	--link-color-visited: #c54e8a;
+
+	--code-background: #f5f6f8;
+	--code-accent-color: #e3e7eb;
+	--code-accent-color-lite: #eff1f3;
+	--code-font-color: #5f5f5f;
+
+	--code-copy-background: #f5f6f8;
+	--code-copy-font-color: #6b7784;
+	--code-copy-border-color: #adb4bc;
+	--code-copy-success-color: #00c853;
+
+	--accent-color: #e9ecef;
+	--accent-color-lite: #f8f9fa;
+
+	--control-icons: #b2bac1;
+
+	--footer-background: #ffffff;
+	--footer-font-color: #343a40;
+	--footer-link-color: #ffcc5c;
+	--footer-link-color-visited: #ffcc5c;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--header-background: #ffffff;
+		--header-font-color: #343a40;
+
+		--body-background: #ffffff;
+		--body-font-color: #343a40;
+
+		--mark-color: #ffab00;
+
+		--button-background: #62cb97;
+		--button-border-color: #4ec58a;
+
+		--link-color: #518169;
+		--link-color-visited: #c54e8a;
+
+		--code-background: #f5f6f8;
+		--code-accent-color: #e3e7eb;
+		--code-accent-color-lite: #eff1f3;
+		--code-font-color: #5f5f5f;
+
+		--code-copy-background: #f5f6f8;
+		--code-copy-font-color: #6b7784;
+		--code-copy-border-color: #adb4bc;
+		--code-copy-success-color: #00c853;
+
+		--accent-color: #e9ecef;
+		--accent-color-lite: #f8f9fa;
+
+		--control-icons: #b2bac1;
+
+		--footer-background: #ffffff;
+		--footer-font-color: #343a40;
+		--footer-link-color: #ffcc5c;
+		--footer-link-color-visited: #ffcc5c;
+	}
+}
+
+/* Dark mode theming */
+:root[color-theme="dark"] {
+	--header-background: #1D1E20;
+	--header-font-color: #ffffff;
+
+	--body-background: #1D1E20;
+	--body-font-color: #ced3d8;
+
+	--mark-color: #ffab00;
+
+	--button-background: #62cb97;
+	--button-border-color: #4ec58a;
+
+	--link-color: #7ac29e;
+	--link-color-visited: #c27a9e;
+
+	--code-background: #2f353a;
+	--code-accent-color: #262b2f;
+	--code-accent-color-lite: #2b3035;
+	--code-font-color: #b9b9b9;
+
+	--code-copy-background: #343a40;
+	--code-copy-font-color: #6b7784;
+	--code-copy-border-color: #6b7784;
+	--code-copy-success-color: #37905c;
+
+	--accent-color: #2b3035;
+	--accent-color-lite: #2f353a;
+
+	--control-icons: #b2bac1;
+
+	--footer-background: #1D1E20;
+	--footer-font-color: #ffffff;
+	--footer-link-color: #ffcc5c;
+	--footer-link-color-visited: #ffcc5c;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--header-background: #1D1E20;
+		--header-font-color: #ffffff;
+
+		--body-background: #1D1E20;
+		--body-font-color: #ced3d8;
+
+		--mark-color: #ffab00;
+
+		--button-background: #62cb97;
+		--button-border-color: #4ec58a;
+
+		--link-color: #7ac29e;
+		--link-color-visited: #c27a9e;
+
+		--code-background: #2f353a;
+		--code-accent-color: #262b2f;
+		--code-accent-color-lite: #2b3035;
+		--code-font-color: #b9b9b9;
+
+		--code-copy-background: #343a40;
+		--code-copy-font-color: #6b7784;
+		--code-copy-border-color: #6b7784;
+		--code-copy-success-color: #37905c;
+
+		--accent-color: #2b3035;
+		--accent-color-lite: #2f353a;
+
+		--control-icons: #b2bac1;
+
+		--footer-background: #1D1E20;
+		--footer-font-color: #ffffff;
+		--footer-link-color: #ffcc5c;
+		--footer-link-color-visited: #ffcc5c;
+	}
+}
+
+.gdoc-header {
+	border-bottom: 0;
+}
+
+
+/* App Title, Price, Description and Links */
+
+.appInfo {
+	grid-area: i;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 140px;
+	align-content: flex-start;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.appInfo {
+		padding-top: 50px;
+		justify-content: center;
+	}
+
+}
+
+.appIconShadow {
+	display: flex;
+	filter: var(--drop-shadow);
+}
+
+.appIconLarge {
+	width: 120px;
+	height: 120px;
+	-webkit-clip-path: url(#shape120);
+	clip-path: url(#shape120);
+	border-radius: 20%;
+}
+
+.appNamePriceContainer {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.appName {
+	color: var(--body-font-color);
+}
+
+@media only screen and (max-width: 768px) {
+
+	.appNamePriceContainer {
+		width: 100%;
+		margin-left: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.appName {
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+
+.appDescriptionContainer {
+	font-size: 1.5rem;
+	font-weight: normal;
+	width: 100%;
+	align-items: flex-start;
+	margin-top: 45px;
+	flex: 0 1 auto;
+	line-height: 1.5;
+}
+
+.appDescription {
+	color: var(--body-font-color);
+}
+
+@media only screen and (max-width: 992px) {
+
+	.appDescription {
+		text-align: center;
+	}
+
+}
+
+.downloadButtonsContainer {
+	display: inline-block;
+	margin-top: 42px;
+	filter: var(--drop-shadow);
+}
+
+@media only screen and (max-width: 992px) {
+
+	.downloadButtonsContainer {
+		text-align: center;
+	}
+
+}
+
+.iphonePreview {
+	grid-area: p;
+	margin-top: 68px;
+}
+
+.iphoneScreen {
+	width: 400px;
+}
+
+@media only screen and (max-width: 1070px) {
+
+	.iphoneScreen {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.iphonePreview {
+		display: flex;
+		margin-top: 47px;
+		justify-content: center;
+		padding-bottom: 75px;
+	}
+
+	.iphoneScreen {
+		width: 400px;
+		margin: 0px;
+		margin-top: 17px;
+	}
+}
+
+.landing {
+	display: grid;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 0px 876px auto auto;
+	grid-column-gap: 30px;
+	grid-template-areas:
+		"h h h h h h h h h h h h"
+		"p p p p p i i i i i i i"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
+}
+
+@media only screen and (max-width: 768px) {
+
+	.landing {
+		grid-template-rows: 80px 811px auto auto;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.landing {
+		grid-column-gap: 0px;
+		grid-template-columns: 1;
+		grid-template-rows: 115px auto auto auto auto;
+		grid-template-areas:
+			"h h h h h h h h h h h h"
+			"i i i i i i i i i i i i"
+			"p p p p p p p p p p p p"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f";
+	}
+}
+/* 
+.webAppLink {
+	padding: 14px 45px;
+	background: #2e7d32;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1.6rem;
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px -0.7px rgb(0 0 0 / 25%);
+}
+
+.webAppLink:visited {
+	color: white;
+} */
+
+.gdoc-brand__img {
+	border-radius: 20%;
+}
+
+.gdoc-button--large {
+	line-height: 2;
+}
+
+.gdoc-nav__entry {
+	padding: .4rem;
+}
+
+.gdoc-nav__entry:hover,
+.gdoc-nav__entry.is-active,
+.gdoc-language__entry:hover,
+.gdoc-language__entry.is-active {
+	background-color: var(--accent-color);
+	text-decoration: none;
+}
+
+.gdoc-nav__list li {
+	margin: .2rem 0;
+}
+
+img[alt="Get it on Google Play"] {
+	width: 140px;
+}
+
+img[alt="Get it on Apple Store"] {
+	width: 120px;
+	margin: 10px;
+}
+
+img.ios-screenshot {
+	border: 1px #333333;
+	border-style: solid;
+	border-radius: 2rem;
+}
