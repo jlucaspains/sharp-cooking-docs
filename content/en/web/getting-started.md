@@ -12,7 +12,6 @@ Sharp Cooking can now be used anywhere with a browser, even on your fridge. Howe
 To install the app in iOS, you must use Safari.
 
 {{< youtube qTEwyteqSXA >}}
-
 {{< /tab >}}
 
 {{< tab "Android" >}}
@@ -30,7 +29,7 @@ Video coming soon.
 {{< tab "Windows" >}}
 In Windows, use either Google Chrome or Microsoft Edge browsers.
 
-Video coming soon.
+{{< youtube wRiGaOSn8VI >}}
 {{< /tab >}}
 
 {{< /tabs >}}

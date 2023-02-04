@@ -6,7 +6,7 @@ aliases:
 ---
 
 {{< hint type=important >}}
-The App Store apps are being retired in favor of the installable web version. For installation instructions, see [Web Install](/web/install). 
+The App Store apps are being retired in favor of the installable web version. For installation instructions, see [Web Getting Started](/web/getting-started). 
 {{< /hint >}}
 
 Sharp Cooking is your personal cooking app. It is available for both Android and iOS devices (iPhone and iPod).

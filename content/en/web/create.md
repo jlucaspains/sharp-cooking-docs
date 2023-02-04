@@ -46,4 +46,4 @@ Most modern recipe websites will now work with Sharp Cooking's import feature. I
 Before importing a recipe from website, you will need the address of the recipe. Using your favorite browser, navigate to the recipe page and copy its address from the browser's address bar before proceeding.
 {{< /hint >}}
 
-{{< youtube CzJe6r2RwDA >}}
+{{< youtube FbJFDWgehGM >}}
