@@ -1,6 +1,7 @@
 ---
 title: Recipe list
 weight: 10
+description: Operations on the display list
 ---
 
 The list page shows all your recipes. In this page you can also sort and search for your recipes.

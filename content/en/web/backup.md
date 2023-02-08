@@ -1,6 +1,7 @@
 ---
 title: Backup
 weight: 50
+description: Backing up and restoring recipes
 ---
 
 ## Creating a backup to keep your recipes safe

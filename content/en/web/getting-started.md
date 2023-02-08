@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 weight: 0
+description: Get started using the new Sharp Cooking app
 ---
 
 The brand new web version of Sharp Cooking offers all the beautiful features of the app store based app. Additionally, it is automatically updated and works in a greater variety of devices: iOS for iPhone, iPad, and iPod; Android phones and tablets; MacOs, Windows 10 and 11, and Chrome Books.

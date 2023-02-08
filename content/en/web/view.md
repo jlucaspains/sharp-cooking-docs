@@ -1,6 +1,7 @@
 ---
 title: View a recipe
 weight: 20
+description: Viewing recipes and operations available
 ---
 
 Sharp Cooking displays recipes using a timeline style which helps you know exactly when to start or continue cooking your recipe and breaks it down nicely in easy to consume bits. 

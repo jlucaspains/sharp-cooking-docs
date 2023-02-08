@@ -1,6 +1,7 @@
 ---
 title: Release Notes
 weight: 90
+description: Latest release notes
 ---
 
 The Sharp Cooking team makes frequent updates to fix issues and add new features to enhance your experience. See below for version release notes.

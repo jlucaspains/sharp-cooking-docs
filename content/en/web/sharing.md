@@ -1,6 +1,7 @@
 ---
 title: Sharing
 weight: 40
+description: How to share recipes as text or files
 ---
 
 There are two primary ways of sharing your recipes: text and file.

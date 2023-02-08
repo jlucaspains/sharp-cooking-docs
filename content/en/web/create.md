@@ -1,6 +1,7 @@
 ---
 title: Create or update a recipe
 weight: 30
+description: How to create or update a recipe
 ---
 
 Creating or adjusting a recipe is as simple as it gets. There are, however, a few conventions that will help your recipes look and work the best within Sharp Cooking:

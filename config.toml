@@ -40,3 +40,4 @@ weight = 20
 
 [params]
 GeekdocLogo = "appicon.png"
+images = ["appicon.png"]
