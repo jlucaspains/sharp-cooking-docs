@@ -30,7 +30,8 @@ Vídeo em breve.
 {{< tab "Windows" >}}
 No Windows, use os navegadores Google Chrome ou Microsoft Edge.
 
-Vídeo em breve.
+{{< youtube wRiGaOSn8VI >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}
