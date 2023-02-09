@@ -1,10 +1,6 @@
 ---
 title: Licença de uso
 weight: 20
-aliases: 
-- "/license"
-- "/termsofuse"
-- "/terms-of-use"
 ---
 
 MIT License
