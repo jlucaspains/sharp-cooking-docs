@@ -18,7 +18,8 @@ To install the app in iOS, you must use Safari.
 {{< tab "Android" >}}
 In Android, use the Chrome browser.
 
-Video coming soon.
+{{< youtube krims56rsWQ >}}
+
 {{< /tab >}}
 
 {{< tab "macOS" >}}
