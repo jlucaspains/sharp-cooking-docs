@@ -48,3 +48,8 @@ Before importing a recipe from website, you will need the address of the recipe.
 {{< /hint >}}
 
 {{< youtube FbJFDWgehGM >}}
+
+## Adding images and videos to your recipes
+You can take pictures using your camera or use pictures from your camera reel. Additionally, you can also add YouTube videos by copying and pasting a link to the video.
+
+{{< youtube lRKqaQKuGxY >}}

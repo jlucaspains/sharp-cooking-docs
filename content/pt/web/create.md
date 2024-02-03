@@ -48,3 +48,8 @@ Antes de importar uma receita de um site, você precisará do endereço da recei
 {{< /hint >}}
 
 {{< youtube FbJFDWgehGM >}}
+
+## Adicionando imagens e vídeos às suas receitas
+Você pode tirar fotos usando sua câmera ou usar fotos do rolo da câmera. Além disso, você também pode adicionar vídeos do YouTube copiando e colando um link para o vídeo.
+
+{{< youtube lRKqaQKuGxY >}}
