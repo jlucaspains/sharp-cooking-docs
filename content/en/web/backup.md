@@ -19,6 +19,4 @@ Backups are restored on top of existing data so you may create duplicates if the
 
 In case you made any mistake or something is wrong with your recipes, you can use the Restore feature in the Settings page to restore your last backup. Both the legacy `.zip` and the new `.json` formats are accepted.That's it. That's it. Your full recipe book will be restored. 
 
-<!-- VIDEO -->  
-
 {{< youtube lKmJmd3-Lug >}}

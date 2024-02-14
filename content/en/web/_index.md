@@ -1,4 +1,4 @@
 ---
-title: Web
+title: App
 weight: 1
 ---

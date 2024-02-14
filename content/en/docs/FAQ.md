@@ -9,7 +9,7 @@ The original app was published to the Apple App Store and Google Play Store. Whi
 For more details, see the blog post [Rewriting SharpCooking from Xamarin to PWA - Part 1](https://lpains.net/posts/2023-01-01-rewriting-sharp-cooking-app-part-1/).
 
 ## Can I keep using the older app?
-Yes, you can. It is highly recommended that you use the new app as all new features will only be available in the new app.
+No, the original app is deprecated and will be removed from the app stores. Please use the new app.
 
 ## Can I support the developers?
 Yes. Spread the word.

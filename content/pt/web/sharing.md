@@ -13,7 +13,7 @@ Esta é a opção mais simples para compartilhar sua receita. Você pode simples
 ➡️
 {{< ios-screenshot src="/images/ios_sharetext.jpg" alt="iOS share as text" >}}
 
-## Sharing as file
+## Compartilhando como arquivo
 {{< hint type=tip >}}
 Fazer backup de suas receitas ou compartilhá-las usa a mesma abordagem no Sharp Cooking. Isso lhe dá a capacidade de fazer um backup na página Configurações e enviar o arquivo gerado para um amigo ou família.
 {{< /hint >}}
@@ -24,5 +24,25 @@ Usando este método, você compartilha um arquivo que pode ser importado diretam
 ➡️
 {{< ios-screenshot src="/images/ios_sharefile.jpg" alt="iOS share as file" >}}
 
-## Receiving a shared file
-Consulte [backup](/web/backup) para obter detalhes sobre como restaurar um arquivo compartilhado.
+### Recebendo um arquivo compartilhado
+Consulte [backup](/pt/web/backup) para obter detalhes sobre como restaurar um arquivo compartilhado.
+
+## Compartilhamento via código na nuvem
+{{< hint type=warning >}}
+Ao usar o recurso, você concorda com os termos definidos no [Privacy Policy](/web/privacy-policy).
+{{< /hint >}}
+
+Usando este método, você pode compartilhar uma receita sem precisar enviá-la como texto ou arquivo. Este método é útil quando você deseja compartilhar uma receita com alguém que usa o Sharp Cooking. O destinatário pode importar a receita diretamente para o Sharp Cooking usando o código da nuvem.
+
+{{< ios-screenshot src="/images/ios_shareoptions.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_sharewait.jpg" alt="iOS share via share code" >}}
+➡️ 
+{{< ios-screenshot src="/images/ios_sharecode.jpg" alt="iOS share via share code" >}}
+
+### Recebendo uma receita via código da nuvem
+{{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcodecomplete.jpg" alt="iOS share options" >}}
