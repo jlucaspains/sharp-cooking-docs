@@ -29,7 +29,7 @@ Consulte [backup](/pt/web/backup) para obter detalhes sobre como restaurar um ar
 
 ## Compartilhamento via código na nuvem
 {{< hint type=warning >}}
-Ao usar o recurso, você concorda com os termos definidos no [Privacy Policy](/web/privacy-policy).
+Ao usar o recurso, você concorda com os termos definidos no [Privacy Policy](/pt/web/privacy-policy).
 {{< /hint >}}
 
 Usando este método, você pode compartilhar uma receita sem precisar enviá-la como texto ou arquivo. Este método é útil quando você deseja compartilhar uma receita com alguém que usa o Sharp Cooking. O destinatário pode importar a receita diretamente para o Sharp Cooking usando o código da nuvem.
