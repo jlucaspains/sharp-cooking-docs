@@ -38,7 +38,16 @@ You can use the enter key to create a new ingredient or step and move to it.
 ➡️
 {{< ios-screenshot src="/images/ios_add_manually.jpg" alt="iOS add manually" >}}
 
-## Import from website
+## Adding images and videos to your recipes
+{{< hint type=important >}}
+Adding youtube videos to recipes is in preview and may be changed in the future.
+{{< /hint >}}
+You can take pictures using your camera or use pictures from your camera reel. Additionally, you can also add YouTube videos by copying and pasting a link to the video.
+
+{{< youtube lRKqaQKuGxY >}}
+
+## Import recipes
+### From website
 The import feature is very simple, you provide the URL of a recipe and sharp-cooking will do the rest. It is smart enough to break down the ingredients and steps for you so all you have to do is save.
 
 Most modern recipe websites will now work with Sharp Cooking's import feature. If your favorite website doesn't work, create an issue in the [GitHub repository](https://github.com/jlucaspains/sharp-cooking-web/issues).
@@ -49,7 +58,15 @@ Before importing a recipe from website, you will need the address of the recipe.
 
 {{< youtube FbJFDWgehGM >}}
 
-## Adding images and videos to your recipes
-You can take pictures using your camera or use pictures from your camera reel. Additionally, you can also add YouTube videos by copying and pasting a link to the video.
+### From a shared file
+See [backup](/web/backup) for details on how to restore a shared file.
 
-{{< youtube lRKqaQKuGxY >}}
+### From a share code (preview)
+{{< hint type=important >}}
+Importing recipes from a share code is in preview and may be changed in the future.
+{{< /hint >}}
+{{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcodecomplete.jpg" alt="iOS share options" >}}

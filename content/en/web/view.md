@@ -9,7 +9,7 @@ Sharp Cooking displays recipes using a timeline style which helps you know exact
 
 {{< ios-screenshot src="/images/ios_display.jpg" alt="iOS recipe display" >}}
 
-### The multiplier feature
+## The multiplier feature
 Use the multiplier feature when you want to cook more or less of a recipe. For instance, if you want half the servings, use the multiplier 0.5. If you want double the servings, use 2. The current multiplier will show beside the *Ingredients* label.
 
 {{< hint type=tip >}}
@@ -26,7 +26,7 @@ The multiplier only applies to ingredients so be careful with instructions where
 ➡️
 {{< ios-screenshot src="/images/ios_multiplier2x.jpg" alt="iOS recipe display with multiplier 2x" >}}
 
-### Cooking start time feature
+## Cooking start time feature
 To start cooking later but know exactly when it will be done later, use the start time feature. Just pick when you want to start cooking and Sharp Cooking will calculate all the steps. You can further adjust the interval between steps without time in the Settings page.
 
 {{< hint type=tip >}}
@@ -39,7 +39,7 @@ Sharp Cooking assign 5 minutes by default between steps where time information (
 ➡️
 {{< ios-screenshot src="/images/ios_timeafter.jpg" alt="iOS recipe display after new start time selection" >}}
 
-### Printing a recipe
+## Printing a recipe
 Sometimes you just want to have that recipe in a pice of good old paper. You can now print your recipes directly from Sharp Cooking app.
 
 {{< ios-screenshot src="/images/ios_multiplier1x.jpg" alt="iOS recipe display" >}}
@@ -53,3 +53,22 @@ iOS does not provide a builtin API for web applications to prevent the screen lo
 There is nothing more annoying than the phone screen shutting down while you are cooking and have something on your hands. You can now disable the screen lock right from the recipe display.
 
 {{< ios-screenshot src="/images/ios_keepon.jpg" alt="iOS keep screen on" >}}
+
+## Nutrition Facts label (preview)
+{{< hint type=important >}}
+The label format and the daily values are based on a 2000 calorie diet as recommended by [FDA](https://www.fda.gov/food/nutrition-education-resources-materials/nutrition-facts-label). While the feature is available anywhere in the planet, the FDA recommended values are used as a reference.
+{{< /hint >}}
+
+Sharp Cooking can show you the nutrition facts of your recipe. First, enable the preview feature in Options page. Then, you can import nutrition facts along with your recipes, if available from the source, or add them manually. The nutrition facts will be displayed in the recipe display page.
+
+{{< hint type=tip >}}
+You can use online nutrition analysers such as the one at [verywellfit](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076). Use the generated data to manually add nutrition facts to your recipes.
+{{< /hint >}}
+
+{{< ios-screenshot src="/images/ios_displaywithnutrition.png" alt="iOS recipe display with nutrition" >}}
+➡️
+{{< ios-screenshot src="/images/ios_nutritionlabel.png" alt="iOS nutrition label" >}}
+
+To manually add nutrition facts to a recipe, edit the recipe and input the values as whole numbers:
+
+{{< ios-screenshot src="/images/ios_editnutrition.png" alt="iOS edit nutrition label" >}}

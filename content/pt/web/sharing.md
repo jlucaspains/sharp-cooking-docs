@@ -24,7 +24,7 @@ Usando este método, você compartilha um arquivo que pode ser importado diretam
 ➡️
 {{< ios-screenshot src="/images/ios_sharefile.jpg" alt="iOS share as file" >}}
 
-### Recebendo um arquivo compartilhado
+## Recebendo um arquivo compartilhado
 Consulte [backup](/pt/web/backup) para obter detalhes sobre como restaurar um arquivo compartilhado.
 
 ## Compartilhamento via código na nuvem
@@ -40,7 +40,7 @@ Usando este método, você pode compartilhar uma receita sem precisar enviá-la 
 ➡️ 
 {{< ios-screenshot src="/images/ios_sharecode.jpg" alt="iOS share via share code" >}}
 
-### Recebendo uma receita via código da nuvem
+## Recebendo uma receita via código da nuvem
 {{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
 ➡️
 {{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}

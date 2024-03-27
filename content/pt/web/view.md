@@ -8,7 +8,7 @@ O Sharp Cooking exibe receitas usando um estilo de linha do tempo que ajuda voc�
 
 {{< ios-screenshot src="/images/ios_display.jpg" alt="iOS recipe display" >}}
 
-### O recurso multiplicador
+## O recurso multiplicador
 Use o recurso multiplicador quando quiser cozinhar mais ou menos de uma receita. Por exemplo, se você quiser metade das porções, use o multiplicador 0,5. Se quiser dobrar as porções, use 2. O multiplicador atual aparecerá ao lado do rótulo *Ingredientes*.
 
 {{< hint type=tip >}}
@@ -25,7 +25,7 @@ O multiplicador se aplica apenas aos ingredientes, portanto, tenha cuidado com a
 ➡️
 {{< ios-screenshot src="/images/ios_multiplier2x.jpg" alt="iOS recipe display with multiplier 2x" >}}
 
-### Recurso de hora de início do cozimento
+## Recurso de hora de início do cozimento
 Para começar a cozinhar mais tarde, mas saber exatamente quando será feito mais tarde, use o recurso de hora de início. Basta escolher quando deseja começar a cozinhar e o Sharp Cooking calculará todas as etapas. Você pode ajustar ainda mais o intervalo entre as etapas sem tempo na página Configurações.
 
 {{< hint type=tip >}}
@@ -38,7 +38,7 @@ Sharp Cooking assign 5 minutes by default between steps where time information (
 ➡️
 {{< ios-screenshot src="/images/ios_timeafter.jpg" alt="iOS recipe display after new start time selection" >}}
 
-### Imprimindo uma receita
+## Imprimindo uma receita
 Às vezes você só quer ter aquela receita em um pedaço de papel velho. Agora você pode imprimir suas receitas diretamente do aplicativo Sharp Cooking.
 
 {{< ios-screenshot src="/images/ios_multiplier1x.jpg" alt="iOS recipe display" >}}
