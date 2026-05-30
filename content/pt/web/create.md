@@ -30,6 +30,14 @@ Exemplo de instruções:
 |Ferva por 20 segundos|❌|Apenas minutos, horas e dias são válidos para instruções com limite de tempo.|
 
 ## Add Manually
+
+O Sharp Cooking oferece dois modos de edição:
+
+- **Editor padrão**: Campos estruturados para título, ingredientes e passos.
+- **Editor simplificado**: Um formato baseado em texto onde você escreve a receita completa como texto simples com cabeçalhos de seção claros. Útil para colar uma receita rapidamente. O aplicativo analisará o texto e preencherá os campos automaticamente.
+
+Você pode alternar entre os modos usando o botão de alternância na página de configurações.
+
 {{< hint type=tip >}}
 Você pode usar a tecla enter para criar um novo ingrediente ou etapa e ir até ele.
 {{< /hint >}}
@@ -48,6 +56,22 @@ Antes de importar uma receita de um site, você precisará do endereço da recei
 {{< /hint >}}
 
 {{< youtube FbJFDWgehGM >}}
+
+### De um arquivo compartilhado
+Consulte [backup](/web/backup) para obter detalhes sobre como restaurar um arquivo compartilhado.
+
+### De um código de compartilhamento
+{{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}
+➡️
+{{< ios-screenshot src="/images/ios_addcodecomplete.jpg" alt="iOS share options" >}}
+
+### Pela extensão do navegador
+Você também pode importar receitas usando a [extensão do Sharp Cooking para navegador](/web/browser-extension). A extensão analisa a página atual e gera um código QR que você escaneia na página Adicionar.
+
+## Idioma da receita
+O Sharp Cooking analisa ingredientes e instruções para extrair quantidades, unidades e tempos. Se uma receita estiver escrita em um idioma diferente do idioma do aplicativo, a análise pode não funcionar corretamente. Você pode definir o **Idioma da receita** na página de edição para informar ao aplicativo qual idioma usar ao analisar essa receita específica.
 
 ## Adicionando imagens e vídeos às suas receitas
 Você pode tirar fotos usando sua câmera ou usar fotos do rolo da câmera. Além disso, você também pode adicionar vídeos do YouTube copiando e colando um link para o vídeo.

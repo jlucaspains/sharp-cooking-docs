@@ -54,12 +54,17 @@ There is nothing more annoying than the phone screen shutting down while you are
 
 {{< ios-screenshot src="/images/ios_keepon.jpg" alt="iOS keep screen on" >}}
 
-## Nutrition Facts label (preview)
+## Step detail popup
+When cooking, tap on any step in the timeline to open a popup with the full step text. This is useful when a step is long and the timeline view is truncated.
+
+TODO: add image
+
+## Nutrition Facts label
 {{< hint type=important >}}
 The label format and the daily values are based on a 2000 calorie diet as recommended by [FDA](https://www.fda.gov/food/nutrition-education-resources-materials/nutrition-facts-label). While the feature is available anywhere in the planet, the FDA recommended values are used as a reference.
 {{< /hint >}}
 
-Sharp Cooking can show you the nutrition facts of your recipe. First, enable the preview feature in Options page. Then, you can import nutrition facts along with your recipes, if available from the source, or add them manually. The nutrition facts will be displayed in the recipe display page.
+Sharp Cooking can show you the nutrition facts of your recipe. You can import nutrition facts along with your recipes, if available from the source, or add them manually. The nutrition facts will be displayed in the recipe display page.
 
 {{< hint type=tip >}}
 You can use online nutrition analysers such as the one at [verywellfit](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076). Use the generated data to manually add nutrition facts to your recipes.
@@ -69,6 +74,6 @@ You can use online nutrition analysers such as the one at [verywellfit](https://
 ➡️
 {{< ios-screenshot src="/images/ios_nutritionlabel.png" alt="iOS nutrition label" >}}
 
-To manually add nutrition facts to a recipe, edit the recipe and input the values as whole numbers:
+To manually add nutrition facts to a recipe, edit the recipe and input the values as whole numbers. You can also use the **Generate with AI** button to automatically populate nutrition facts using AI — this requires the AI Assistant to be configured in the Preview Features page.
 
 {{< ios-screenshot src="/images/ios_editnutrition.png" alt="iOS edit nutrition label" >}}

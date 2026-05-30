@@ -52,3 +52,25 @@ O iOS não fornece uma API integrada para aplicativos da Web para evitar o bloqu
 Não há nada mais irritante do que a tela do telefone desligando enquanto você cozinha e tem algo em mãos. Agora você pode desativar o bloqueio de tela diretamente na exibição da receita.
 
 {{< ios-screenshot src="/images/ios_keepon.jpg" alt="iOS keep screen on" >}}
+
+## Popup de detalhes do passo
+Ao cozinhar, toque em qualquer passo na linha do tempo para abrir um popup com o texto completo do passo. Isso é útil quando um passo é longo e a visualização da linha do tempo está truncada.
+
+## Informações nutricionais
+{{< hint type=important >}}
+O formato do rótulo e os valores diários são baseados em uma dieta de 2000 calorias conforme recomendado pela [FDA](https://www.fda.gov/food/nutrition-education-resources-materials/nutrition-facts-label). Embora o recurso esteja disponível em qualquer lugar do planeta, os valores recomendados pela FDA são usados como referência.
+{{< /hint >}}
+
+O Sharp Cooking pode mostrar as informações nutricionais da sua receita. Você pode importar as informações nutricionais junto com suas receitas, se disponíveis na fonte, ou adicioná-las manualmente. As informações nutricionais serão exibidas na página de visualização da receita.
+
+{{< hint type=tip >}}
+Você pode usar analisadores de nutrição online, como o disponível em [verywellfit](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076). Use os dados gerados para adicionar manualmente as informações nutricionais às suas receitas.
+{{< /hint >}}
+
+{{< ios-screenshot src="/images/ios_displaywithnutrition.png" alt="iOS recipe display with nutrition" >}}
+➡️
+{{< ios-screenshot src="/images/ios_nutritionlabel.png" alt="iOS nutrition label" >}}
+
+Para adicionar manualmente as informações nutricionais a uma receita, edite a receita e insira os valores como números inteiros. Você também pode usar o botão **Gerar com IA** para preencher automaticamente as informações nutricionais usando IA — isso requer que o Assistente de IA esteja configurado na página de Recursos em Preview.
+
+{{< ios-screenshot src="/images/ios_editnutrition.png" alt="iOS edit nutrition label" >}}

@@ -30,6 +30,14 @@ Example instructions:
 |Boil for 20 seconds|❌|Only minutes, hours, and days are valid for time-bound instructions.|
 
 ## Add Manually
+
+Sharp Cooking offers two editing modes:
+
+- **Standard editor**: Structured fields for title, ingredients, and steps.
+- **Simplified editor**: A text-based format where you write the full recipe as plain text with clear section headers. Useful for quickly pasting in a recipe. The app will parse the text and populate the fields automatically.
+
+You can switch between modes using the toggle at the settings page.
+
 {{< hint type=tip >}}
 You can use the enter key to create a new ingredient or step and move to it.
 {{< /hint >}}
@@ -39,9 +47,6 @@ You can use the enter key to create a new ingredient or step and move to it.
 {{< ios-screenshot src="/images/ios_add_manually.jpg" alt="iOS add manually" >}}
 
 ## Adding images and videos to your recipes
-{{< hint type=important >}}
-Adding youtube videos to recipes is in preview and may be changed in the future.
-{{< /hint >}}
 You can take pictures using your camera or use pictures from your camera reel. Additionally, you can also add YouTube videos by copying and pasting a link to the video.
 
 {{< youtube lRKqaQKuGxY >}}
@@ -61,12 +66,17 @@ Before importing a recipe from website, you will need the address of the recipe.
 ### From a shared file
 See [backup](/web/backup) for details on how to restore a shared file.
 
-### From a share code (preview)
-{{< hint type=important >}}
-Importing recipes from a share code is in preview and may be changed in the future.
-{{< /hint >}}
+### From a share code
 {{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
 ➡️
 {{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}
 ➡️
 {{< ios-screenshot src="/images/ios_addcodecomplete.jpg" alt="iOS share options" >}}
+
+### From the browser extension
+You can also import recipes using the [Sharp Cooking browser extension](/web/browser-extension). The extension parses the current page and generates a QR code that you scan from the Add page.
+
+![Chrome Extension](https://blog.lpains.net/images/posts/sharp-cooking-extension.png)
+
+## Recipe language
+Sharp Cooking parses ingredients and instructions to extract quantities, units, and timings. If a recipe is written in a language different from your app language, the parsing may not work correctly. You can set the **Recipe language** in the edit page to tell the app which language to use for parsing that specific recipe.

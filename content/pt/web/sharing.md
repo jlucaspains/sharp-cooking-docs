@@ -27,12 +27,13 @@ Usando este método, você compartilha um arquivo que pode ser importado diretam
 ## Recebendo um arquivo compartilhado
 Consulte [backup](/pt/web/backup) para obter detalhes sobre como restaurar um arquivo compartilhado.
 
-## Compartilhamento via código na nuvem
-{{< hint type=warning >}}
-Ao usar o recurso, você concorda com os termos definidos no [Privacy Policy](/pt/web/privacy-policy).
-{{< /hint >}}
+## Compartilhamento via código de compartilhamento
 
-Usando este método, você pode compartilhar uma receita sem precisar enviá-la como texto ou arquivo. Este método é útil quando você deseja compartilhar uma receita com alguém que usa o Sharp Cooking. O destinatário pode importar a receita diretamente para o Sharp Cooking usando o código da nuvem.
+Usando este método, você pode compartilhar uma receita sem precisar enviá-la como texto ou arquivo. Este método é útil quando você deseja compartilhar uma receita com alguém que usa o Sharp Cooking. O destinatário pode importar a receita diretamente para o Sharp Cooking usando o código de compartilhamento.
+
+{{< hint type=note >}}
+Ao usar o recurso de código de compartilhamento, você concorda com os termos definidos na [Política de Privacidade](/pt/web/privacy-policy).
+{{< /hint >}}
 
 {{< ios-screenshot src="/images/ios_shareoptions.jpg" alt="iOS share options" >}}
 ➡️
@@ -40,7 +41,7 @@ Usando este método, você pode compartilhar uma receita sem precisar enviá-la 
 ➡️ 
 {{< ios-screenshot src="/images/ios_sharecode.jpg" alt="iOS share via share code" >}}
 
-## Recebendo uma receita via código da nuvem
+## Recebendo uma receita via código de compartilhamento
 {{< ios-screenshot src="/images/ios_addoptions.jpg" alt="iOS share options" >}}
 ➡️
 {{< ios-screenshot src="/images/ios_addcode.jpg" alt="iOS share options" >}}

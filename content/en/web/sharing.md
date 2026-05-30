@@ -28,11 +28,12 @@ Using this method, you share a file that can be imported directly in Sharp Cooki
 See [backup](/web/backup) for details on how to restore a shared file.
 
 ## Sharing via share code
-{{< hint type=warning >}}
-By using the feature, you agree to the terms defined in the [Privacy Policy](/web/privacy-policy).
-{{< /hint >}}
 
-Using this method, you can share a recipe without having to send it as text or file. This method is useful when you want to share a recipe with someone who is using Sharp Cooking. The recipient can import the recipe directly into Sharp Cooking using the cloud code.
+Using this method, you can share a recipe without having to send it as text or file. This method is useful when you want to share a recipe with someone who is using Sharp Cooking. The recipient can import the recipe directly into Sharp Cooking using the share code.
+
+{{< hint type=note >}}
+By using the share code feature, you agree to the terms defined in the [Privacy Policy](/web/privacy-policy).
+{{< /hint >}}
 
 {{< ios-screenshot src="/images/ios_shareoptions.jpg" alt="iOS share options" >}}
 ➡️
