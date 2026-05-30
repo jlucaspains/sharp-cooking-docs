@@ -1,4 +1,4 @@
-languageCode = 'en-us'
+locale = 'en-us'
 
 baseURL = "http://localhost"
 title = "Sharp Cooking"
@@ -29,12 +29,12 @@ enableRobotsTXT = true
 defaultContentLanguage = "en"
 
 [languages.en]
-languageName = "English"
+label = "English"
 contentDir = "content/en"
 weight = 10
 
 [languages.pt]
-languageName = "Portuguese"
+label = "Portuguese"
 contentDir = "content/pt"
 weight = 20
 
