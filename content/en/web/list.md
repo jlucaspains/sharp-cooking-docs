@@ -19,10 +19,7 @@ You can use the search bar at the very top of the recipe list page to search for
 
 {{< ios-screenshot src="/images/ios_search.png" alt="iOS search" width="300" >}}
 
-## Advanced Search (preview)
-{{< hint type=warning >}}
-Before using this feature, enable it in Options page. This is a preview feature and may be modified before final release.
-{{< /hint >}}
+## Advanced Search
 
 You may directly search inside the title, ingredients, and steps fields by using the Advanced Search functionality.
 

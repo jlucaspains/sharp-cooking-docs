@@ -19,10 +19,7 @@ Você pode usar a barra de pesquisa no topo da página da lista de receitas para
 
 {{< ios-screenshot src="/images/ios_search.png" alt="iOS search" width="300" >}}
 
-## Pesquisa Avançada (preview)
-{{< hint type=warning >}}
-Antes de usar este recurso, habilite-o na página Opções. Este é um recurso de visualização e pode ser modificado antes do lançamento final.
-{{< /hint >}}
+## Pesquisa Avançada
 
 Você pode pesquisar diretamente nos campos de título, ingredientes e etapas usando a funcionalidade de pesquisa avançada.
 

@@ -1,5 +1,6 @@
 {{ $url  := .Get "file"}}
-{{ $data := getJSON $url }}
+{{ $res  := resources.GetRemote $url }}
+{{ $data := $res | transform.Unmarshal }}
 {{ range $data }}
 {{ if .latest }}
 {{ printf "## Version %s (latest)" .version | markdownify }}
