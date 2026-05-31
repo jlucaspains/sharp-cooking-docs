@@ -6,7 +6,9 @@ description: Organizing recipes with categories
 
 Recipe categories let you group your recipes for easier browsing and filtering. You can assign one or more categories to each recipe when creating or editing it.
 
-TODO: add image
+{{< ios-screenshot src="/images/ios_categories.png" alt="iOS categoriesç" >}}
+➡️
+{{< ios-screenshot src="/images/ios_category_open.png" alt="iOS categoriesç" >}}
 
 ## Assigning categories to a recipe
 

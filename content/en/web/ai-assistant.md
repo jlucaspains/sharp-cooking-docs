@@ -8,7 +8,7 @@ description: Chat with an AI about your recipes
 The AI Assistant is a preview feature and may change before final release. You need a valid OpenAI API key to use it.
 {{< /hint >}}
 
-TODO: Add image
+![AI Assistant](https://blog.lpains.net/images/posts/sharp-cooking-ai-preview-2.jpeg)
 
 The AI Assistant lets you have a conversation with an AI that is aware of your recipe book. You can ask it questions like "What can I make with chicken and lemon?" or "Give me the steps for my pasta recipe in simpler terms."
 

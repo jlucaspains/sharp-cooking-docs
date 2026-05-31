@@ -6,6 +6,10 @@ description: Organizando receitas com categorias
 
 As categorias de receitas permitem agrupar suas receitas para facilitar a navegação e a filtragem. Você pode atribuir uma ou mais categorias a cada receita ao criá-la ou editá-la.
 
+{{< ios-screenshot src="/images/ios_categories.png" alt="iOS categoriesç" >}}
+➡️
+{{< ios-screenshot src="/images/ios_category_open.png" alt="iOS categoriesç" >}}
+
 ## Atribuindo categorias a uma receita
 
 Ao criar ou editar uma receita, role até o campo **Categoria** e digite o nome da categoria. Você pode adicionar várias categorias à mesma receita.

@@ -25,11 +25,24 @@ O multiplicador se aplica apenas aos ingredientes, portanto, tenha cuidado com a
 ➡️
 {{< ios-screenshot src="/images/ios_multiplier2x.jpg" alt="iOS recipe display with multiplier 2x" >}}
 
+## Conversões de unidade de medida dos ingredientes
+O Sharp Cooking calcula automaticamente conversões alternativas de unidade de medida para cada ingrediente. Por exemplo, um ingrediente listado como *300g* também pode ser exibido como *0,66 lb*, *0,3 kg* ou *10,58 oz*.
+
+Para ver as alternativas, toque em qualquer ingrediente na lista. Um popup aparecerá mostrando a quantidade em todas as unidades suportadas. O multiplicador também é aplicado a todas as quantidades alternativas.
+
+{{< hint type=tip >}}
+Isso funciona melhor quando os ingredientes começam com uma quantidade e unidade reconhecidas. Consulte a página [Criar ou atualizar uma receita](/web/create) para dicas sobre como escrever ingredientes bem estruturados.
+{{< /hint >}}
+
+{{< ios-screenshot src="/images/ios_ingredient_detail.png" alt="iOS ingredient unit conversion popup" >}}
+
 ## Recurso de hora de início do cozimento
 Para começar a cozinhar mais tarde, mas saber exatamente quando será feito mais tarde, use o recurso de hora de início. Basta escolher quando deseja começar a cozinhar e o Sharp Cooking calculará todas as etapas. Você pode ajustar ainda mais o intervalo entre as etapas sem tempo na página Configurações.
 
+O Sharp Cooking detecta automaticamente o tempo a partir da linguagem natural no texto dos seus passos, então você não precisa inseri-lo separadamente. Por exemplo, *"Asse por 30 minutos"* é lido como 30 minutos, e *"Deixe crescer por 2 horas"* é lido como 2 horas. As unidades suportadas são minutos, horas e dias.
+
 {{< hint type=tip >}}
-Sharp Cooking assign 5 minutes by default between steps where time information (e.g. "bake for 30 min") is not given. You can adjust this time in the Settings page. Note that any value provided is treated as minutes.
+O Sharp Cooking atribui 5 minutos por padrão entre os passos onde as informações de tempo (por exemplo, "asse por 30 min") não são fornecidas. Você pode ajustar esse tempo na página Configurações. Observe que qualquer valor fornecido é tratado como minutos.
 {{< /hint >}}
 
 {{< ios-screenshot src="/images/ios_multiplier1x.jpg" alt="iOS recipe display" >}}
@@ -55,6 +68,10 @@ Não há nada mais irritante do que a tela do telefone desligando enquanto você
 
 ## Popup de detalhes do passo
 Ao cozinhar, toque em qualquer passo na linha do tempo para abrir um popup com o texto completo do passo. Isso é útil quando um passo é longo e a visualização da linha do tempo está truncada.
+
+Se o passo contiver uma temperatura (por exemplo, *"Asse a 200°C"*), o popup também mostra o equivalente convertido na outra unidade — passos em Celsius são exibidos com o equivalente em Fahrenheit e vice-versa.
+
+{{< ios-screenshot src="/images/ios_step_details.png" alt="iOS step detail popup with temperature conversion" >}}
 
 ## Informações nutricionais
 {{< hint type=important >}}

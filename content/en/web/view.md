@@ -26,8 +26,21 @@ The multiplier only applies to ingredients so be careful with instructions where
 ➡️
 {{< ios-screenshot src="/images/ios_multiplier2x.jpg" alt="iOS recipe display with multiplier 2x" >}}
 
+## Ingredient unit conversions
+Sharp Cooking automatically calculates alternative unit of measure conversions for each ingredient. For example, an ingredient listed as *300g* can also be shown as *0.66 lb*, *0.3 kg*, or *10.58 oz*.
+
+To see the alternatives, tap any ingredient in the list. A popup will appear showing the quantity in all supported units. The multiplier is applied to all alternative quantities as well.
+
+{{< hint type=tip >}}
+This works best when ingredients start with a recognised quantity and unit. See the [Create or update a recipe](/web/create) page for tips on writing well-structured ingredients.
+{{< /hint >}}
+
+{{< ios-screenshot src="/images/ios_ingredient_detail.png" alt="iOS ingredient unit conversion popup" >}}
+
 ## Cooking start time feature
 To start cooking later but know exactly when it will be done later, use the start time feature. Just pick when you want to start cooking and Sharp Cooking will calculate all the steps. You can further adjust the interval between steps without time in the Settings page.
+
+Sharp Cooking automatically detects time from natural language in your step text, so you do not need to enter it separately. For example, *"Bake for 30 minutes"* is read as 30 minutes, and *"Rise for 2 hours"* is read as 2 hours. Supported units are minutes, hours, and days.
 
 {{< hint type=tip >}}
 Sharp Cooking assign 5 minutes by default between steps where time information (e.g. "bake for 30 min") is not given. You can adjust this time in the Settings page. Note that any value provided is treated as minutes.
@@ -57,7 +70,9 @@ There is nothing more annoying than the phone screen shutting down while you are
 ## Step detail popup
 When cooking, tap on any step in the timeline to open a popup with the full step text. This is useful when a step is long and the timeline view is truncated.
 
-TODO: add image
+If the step contains a temperature (e.g. *"Bake at 400°F"*), the popup also shows the converted equivalent in the other unit — Fahrenheit steps are shown with the Celsius equivalent and vice versa.
+
+{{< ios-screenshot src="/images/ios_step_details.png" alt="iOS step detail popup with temperature conversion" >}}
 
 ## Nutrition Facts label
 {{< hint type=important >}}

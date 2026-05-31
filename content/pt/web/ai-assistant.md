@@ -8,6 +8,8 @@ description: Converse com uma IA sobre suas receitas
 O Assistente de IA é um recurso em preview e pode ser alterado antes do lançamento final. Você precisa de uma chave de API OpenAI válida para usá-lo.
 {{< /hint >}}
 
+![AI Assistant](https://blog.lpains.net/images/posts/sharp-cooking-ai-preview-2.jpeg)
+
 O Assistente de IA permite que você tenha uma conversa com uma IA que conhece seu livro de receitas. Você pode fazer perguntas como "O que posso fazer com frango e limão?" ou "Me dê os passos da minha receita de macarrão de forma mais simples."
 
 ## Habilitando o Assistente de IA
