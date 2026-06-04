@@ -1,0 +1,44 @@
+{{ define "main" }}
+<article class="gdoc-post" id="main-content" tabindex="-1">
+  <header class="gdoc-post__header">
+    <h1 class="gdoc-post__title">{{ partial "utils/title" . }}</h1>
+    <div class="flex flex-wrap align-center gdoc-post__meta gdoc-post__meta--head">
+      {{ partial "posts/metadata.html" . }}
+    </div>
+  </header>
+  <section class="gdoc-markdown">
+    <p>{{ .Page.Params.Description }}</p>
+    {{ if .Page.Params.ImageUrl }}
+      <img src="{{.Page.Params.ImageUrl}}" alt="Landing zone">
+    {{ end }}
+    {{ if .Page.Params.VideoUrl }}
+      {{ .RenderString (printf "{{< youtube \"%s\" >}}" .Page.Params.VideoUrl) }}
+    {{ end }}
+    <h2 id="ingredients">
+      {{ i18n "ingredients" }}
+    </h2>
+    <ul>
+      {{ range .Page.Params.Ingredients }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <h2 id="instructions">
+      {{ i18n "instructions" }}
+    </h2>
+    <ol>
+      {{ range .Page.Params.Instructions }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ol>
+    {{ if .Page.Params.Notes }}
+    <h2 id="notes">
+      {{ i18n "notes" }}
+    </h2>
+    <p>{{ .Page.Params.Notes }}</p>
+    {{ end }}
+    {{ if .Page.Params.Source }}
+    <p><b>{{ i18n "source" }}:</b> <a href="{{ .Page.Params.Source }}">{{ .Page.Params.Source }}</a></p>
+    {{ end }}
+  </section>
+</article>
+{{ end }}

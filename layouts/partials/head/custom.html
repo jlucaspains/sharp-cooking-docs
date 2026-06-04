@@ -1,0 +1,37 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "{{ .Page.Params.Title }}",
+      "image": [
+        "{{ .Page.Params.ImageUrl | absURL }}"
+      ],
+      "description": "{{ .Page.Params.Description }}",
+      "keywords": "{{ .Page.Params.Keywords }}",
+      "datePublished": "{{ .Page.Date.Format "2006-01-02" }}",
+      "prepTime": "PT15M",
+      "cookTime": "PT12M",
+      "totalTime": "PT35M",
+      "keywords": "{{ .Page.Params.Keywords }}",
+      "recipeYield": "{{ .Page.Params.RecipeYield }}",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "200 kcal",
+        "fatContent": "10 g",
+        "sugarContent": "12 g"
+      },
+      "recipeIngredient": [
+        {{ range $i, $e := .Page.Params.Ingredients }}
+        {{ if $i }},{{ end }}"{{ $e }}"
+        {{ end }}
+      ],
+      "recipeInstructions": [
+        {{ range $i, $e := .Page.Params.Instructions }}
+        {{ if $i }},{{ end }}{
+          "@type": "HowToStep",
+          "text": "{{ $e }}"
+        }
+        {{ end }}
+      ]
+    }
+</script>

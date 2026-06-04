@@ -39,6 +39,13 @@
                     {{.Page.Params.GetStartedText}}
                 </a>
             </span>
+            {{ if .Page.Params.RecipesLink }}
+            <span class="gdoc-button gdoc-button--large">
+                <a class="gdoc-button__link" href="{{.Page.Params.RecipesLink}}">
+                    {{.Page.Params.RecipesText}}
+                </a>
+            </span>
+            {{ end }}
         </div>
     </div>
 </div>

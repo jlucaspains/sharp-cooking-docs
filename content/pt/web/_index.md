@@ -1,4 +1,4 @@
 ---
-title: App
+title: Documentação
 weight: 1
 ---
