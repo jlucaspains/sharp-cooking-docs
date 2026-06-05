@@ -12,7 +12,7 @@
     </header>
     <section>
       {{ if .Page.Params.ImageUrl }}
-        <img src="/{{.Page.Params.ImageUrl}}" alt="Landing zone">
+        <img src="{{.Page.Params.ImageUrl}}" alt="Recipe image">
       {{ end }}
       {{ if .Page.Params.VideoUrl }}
         {{ .RenderString (printf "{{< youtube \"%s\">}}" .Page.Params.VideoUrl) }}

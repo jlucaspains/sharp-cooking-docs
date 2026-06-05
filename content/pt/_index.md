@@ -11,5 +11,5 @@ longerDescription: Todas as suas receitas na ponta dos seus dedos
 getStartedText: Iniciar
 getStartedLink: /pt/web/getting-started
 recipesText: Receitas
-recipesLink: /pt/recipes/
+recipesLink: /pt/recipes/list/
 ---

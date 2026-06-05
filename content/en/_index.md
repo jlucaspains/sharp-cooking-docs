@@ -11,6 +11,6 @@ longerDescription: All your recipes at your fingertips
 getStartedText: Get Started
 getStartedLink: /web/getting-started/
 recipesText: Recipes
-recipesLink: /recipes/
+recipesLink: /recipes/list/
 description: All your recipes at your fingertips
 ---

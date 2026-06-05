@@ -9,7 +9,7 @@
   <section class="gdoc-markdown">
     <p>{{ .Page.Params.Description }}</p>
     {{ if .Page.Params.ImageUrl }}
-      <img src="{{.Page.Params.ImageUrl}}" alt="Landing zone">
+      <img src="{{.Page.Params.ImageUrl}}" alt="Recipe image">
     {{ end }}
     {{ if .Page.Params.VideoUrl }}
       {{ .RenderString (printf "{{< youtube \"%s\" >}}" .Page.Params.VideoUrl) }}
@@ -35,6 +35,26 @@
       {{ i18n "notes" }}
     </h2>
     <p>{{ .Page.Params.Notes }}</p>
+    {{ end }}
+    {{ with .Page.Params.nutrition }}
+    <h2 id="nutrition">{{ i18n "nutrition" }}</h2>
+    {{ if .aiGenerated }}<p><em>{{ i18n "nutritionAI" }}</em></p>{{ end }}
+    <div style="border: 2px solid #000; display: inline-block; max-width: 280px; padding: 3px 6px; font-size: 14px; line-height: 1.4; background-color: #fff; color: #000;">
+      <p style="font-size: 0.85rem; margin: 2px 0; border-bottom: 8px solid #000; padding-bottom: 3px;">{{ i18n "servingSize" }}: {{ .servingSize }}g</p>
+      <div style="border-bottom: 4px solid #000; padding: 2px 0; display: flex; justify-content: space-between; align-items: baseline;">
+        <strong>{{ i18n "calories" }}</strong>
+        <strong style="font-size: 1.5rem;">{{ .calories }}</strong>
+      </div>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0; margin: 0;"><strong>{{ i18n "totalFat" }}</strong> {{ .totalFat }}g</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0 2px 12px; margin: 0;">{{ i18n "saturatedFat" }} {{ .saturatedFat }}g</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0 2px 12px; margin: 0;"><em>{{ i18n "transFat" }}</em> {{ .transFat }}g</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0; margin: 0;"><strong>{{ i18n "cholesterol" }}</strong> {{ .cholesterol }}mg</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0; margin: 0;"><strong>{{ i18n "sodium" }}</strong> {{ .sodium }}mg</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0; margin: 0;"><strong>{{ i18n "carbs" }}</strong> {{ .carbs }}g</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0 2px 12px; margin: 0;">{{ i18n "fiber" }} {{ .fiber }}g</p>
+      <p style="border-bottom: 1px solid #000; padding: 2px 0 2px 12px; margin: 0;">{{ i18n "sugar" }} {{ .sugar }}g</p>
+      <p style="padding: 2px 0; margin: 0;"><strong>{{ i18n "protein" }}</strong> {{ .protein }}g</p>
+    </div>
     {{ end }}
     {{ if .Page.Params.Source }}
     <p><b>{{ i18n "source" }}:</b> <a href="{{ .Page.Params.Source }}">{{ .Page.Params.Source }}</a></p>

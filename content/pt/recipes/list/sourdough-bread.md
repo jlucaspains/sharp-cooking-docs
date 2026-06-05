@@ -5,7 +5,7 @@ tags: ["pão"]
 geekdocHidden: true
 imageUrl: https://sharpcooking.lpains.net/bread.jpg
 description: O clássico Pão de Fermentação Natural.
-source: https://breadtopia.com/basic-all-purpose-sourdough-bread/
+source: https://breadtopia.com/
 ingredients:
   - 142g de farinha de trigo integral
   - 312g de farinha de trigo branca para pão

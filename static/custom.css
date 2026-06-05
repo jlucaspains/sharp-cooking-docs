@@ -249,6 +249,11 @@
 	filter: var(--drop-shadow);
 }
 
+.downloadButtonsContainer .gdoc-button {
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.downloadButtonsContainer {

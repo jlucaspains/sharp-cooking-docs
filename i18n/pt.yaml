@@ -2,3 +2,16 @@ instructions: Instruções
 ingredients: Ingredientes
 notes: Notas
 source: Fonte Original
+nutrition: Informação Nutricional
+servingSize: Porção
+calories: Calorias
+totalFat: Gordura Total
+saturatedFat: Gordura Saturada
+transFat: Gordura Trans
+cholesterol: Colesterol
+sodium: Sódio
+carbs: Carboidratos Totais
+fiber: Fibra Alimentar
+sugar: Açúcares Totais
+protein: Proteínas
+nutritionAI: Informação nutricional gerada por IA, pode não ser precisa.

@@ -16,9 +16,16 @@
       "recipeYield": "{{ .Page.Params.RecipeYield }}",
       "nutrition": {
         "@type": "NutritionInformation",
-        "calories": "200 kcal",
-        "fatContent": "10 g",
-        "sugarContent": "12 g"
+        "calories": "{{ .Page.Params.Nutrition.Calories }} kcal",
+        "fatContent": "{{ .Page.Params.Nutrition.TotalFat }} g",
+        "sugarContent": "{{ .Page.Params.Nutrition.Sugar }} g",
+        "proteinContent": "{{ .Page.Params.Nutrition.Protein }} g",
+        "carbohydrateContent": "{{ .Page.Params.Nutrition.Carbs }} g",
+        "cholesterolContent": "{{ .Page.Params.Nutrition.Cholesterol }} mg",
+        "sodiumContent": "{{ .Page.Params.Nutrition.Sodium }} mg",
+        "fiberContent": "{{ .Page.Params.Nutrition.Fiber }} g",
+        "transFatContent": "{{ .Page.Params.Nutrition.TransFat }} g",
+        "saturatedFatContent": "{{ .Page.Params.Nutrition.SaturatedFat }} g"
       },
       "recipeIngredient": [
         {{ range $i, $e := .Page.Params.Ingredients }}
