@@ -1,3 +1,5 @@
+<!-- Only add ld+json if on a recipe page -->
+{{ if .Page.Params.Ingredients }}
 <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -9,11 +11,11 @@
       "description": "{{ .Page.Params.Description }}",
       "keywords": "{{ .Page.Params.Keywords }}",
       "datePublished": "{{ .Page.Date.Format "2006-01-02" }}",
-      "prepTime": "PT15M",
-      "cookTime": "PT12M",
-      "totalTime": "PT35M",
+      "prepTime": "{{ .Page.Params.PrepTimeISO }}",
+      "cookTime": "{{ .Page.Params.CookTimeISO }}",
+      "totalTime": "{{ .Page.Params.TotalTimeISO }}",
       "keywords": "{{ .Page.Params.Keywords }}",
-      "recipeYield": "{{ .Page.Params.RecipeYield }}",
+      "recipeYield": "{{ .Page.Params.servings }}",
       "nutrition": {
         "@type": "NutritionInformation",
         "calories": "{{ .Page.Params.Nutrition.Calories }} kcal",
@@ -42,3 +44,4 @@
       ]
     }
 </script>
+{{ end }}

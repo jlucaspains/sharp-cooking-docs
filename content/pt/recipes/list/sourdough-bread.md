@@ -6,6 +6,13 @@ geekdocHidden: true
 imageUrl: https://sharpcooking.lpains.net/bread.jpg
 description: O clássico Pão de Fermentação Natural.
 source: https://breadtopia.com/
+prepTime: "30 min"
+cookTime: "45 min"
+totalTime: "~15 hours"
+prepTimeISO: "PT30M"
+cookTimeISO: "PT45M"
+totalTimeISO: "PT15H"
+servings: "1 loaf"
 ingredients:
   - 142g de farinha de trigo integral
   - 312g de farinha de trigo branca para pão

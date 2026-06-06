@@ -14,6 +14,34 @@
     {{ if .Page.Params.VideoUrl }}
       {{ .RenderString (printf "{{< youtube \"%s\" >}}" .Page.Params.VideoUrl) }}
     {{ end }}
+    {{ if or .Page.Params.prepTime .Page.Params.cookTime .Page.Params.totalTime .Page.Params.servings }}
+    <div class="recipe-meta-strip">
+      {{ if .Page.Params.prepTime }}
+      <div class="recipe-meta-item">
+        <span class="recipe-meta-label">{{ i18n "prepTime" }}</span>
+        <span class="recipe-meta-value">{{ .Page.Params.prepTime }}</span>
+      </div>
+      {{ end }}
+      {{ if .Page.Params.cookTime }}
+      <div class="recipe-meta-item">
+        <span class="recipe-meta-label">{{ i18n "cookTime" }}</span>
+        <span class="recipe-meta-value">{{ .Page.Params.cookTime }}</span>
+      </div>
+      {{ end }}
+      {{ if .Page.Params.totalTime }}
+      <div class="recipe-meta-item">
+        <span class="recipe-meta-label">{{ i18n "totalTime" }}</span>
+        <span class="recipe-meta-value">{{ .Page.Params.totalTime }}</span>
+      </div>
+      {{ end }}
+      {{ if .Page.Params.servings }}
+      <div class="recipe-meta-item">
+        <span class="recipe-meta-label">{{ i18n "servings" }}</span>
+        <span class="recipe-meta-value">{{ .Page.Params.servings }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
     <h2 id="ingredients">
       {{ i18n "ingredients" }}
     </h2>
@@ -25,7 +53,7 @@
     <h2 id="instructions">
       {{ i18n "instructions" }}
     </h2>
-    <ol>
+    <ol class="recipe-steps">
       {{ range .Page.Params.Instructions }}
       <li>{{ . }}</li>
       {{ end }}

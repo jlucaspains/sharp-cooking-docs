@@ -15,3 +15,7 @@ fiber: Fibra Alimentar
 sugar: Açúcares Totais
 protein: Proteínas
 nutritionAI: Informação nutricional gerada por IA, pode não ser precisa.
+prepTime: Tempo de Preparo
+cookTime: Tempo de Cozimento
+totalTime: Tempo Total
+servings: Porções

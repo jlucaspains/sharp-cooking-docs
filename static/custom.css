@@ -394,10 +394,90 @@ img.ios-screenshot {
 		border-radius: 4px;
 	}
 
+	.recipe-meta-strip {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: var(--accent-color-lite);
+		border-radius: 8px;
+		padding: 1rem 0;
+		margin: 1.25rem 0;
+	}
+
+	.recipe-meta-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 1.5rem;
+		border-right: 1px solid var(--accent-color);
+	}
+
+	.recipe-meta-item:last-child {
+		border-right: none;
+	}
+
+	.recipe-meta-label {
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		opacity: 0.65;
+		font-weight: 600;
+	}
+
+	.recipe-meta-value {
+		font-size: 1rem;
+		font-weight: 700;
+		margin-top: 0.2rem;
+	}
+
+	@media (max-width: 480px) {
+		.recipe-meta-item {
+			border-right: none;
+			border-bottom: 1px solid var(--accent-color);
+			width: 100%;
+			padding: 0.5rem 0;
+		}
+
+		.recipe-meta-item:last-child {
+			border-bottom: none;
+		}
+	}
+
+	.recipe-steps {
+		list-style: none;
+		padding-left: 0;
+		counter-reset: step-counter;
+
+		li {
+			counter-increment: step-counter;
+			position: relative;
+			padding: 0.875rem 1rem 0.875rem 3.5rem;
+			margin-bottom: 1rem;
+			border-radius: 6px;
+
+			&::before {
+				content: counter(step-counter);
+				position: absolute;
+				left: 0.5rem;
+				top: 0.875rem;
+				width: 1.75rem;
+				height: 1.75rem;
+				color: #fff;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: 700;
+				font-size: 1.5rem;
+			}
+		}
+	}
+
 	.nutrition-facts {
 		border: 2px solid #000;
-		display: inline-block;
+		display: block;
 		max-width: 280px;
+		margin: 0 auto;
 		padding: 3px 6px;
 		font-size: 14px;
 		line-height: 1.4;
