@@ -330,6 +330,7 @@
 			"f f f f f f f f f f f f";
 	}
 }
+
 /* 
 .webAppLink {
 	padding: 14px 45px;
@@ -383,4 +384,56 @@ img.ios-screenshot {
 	border: 1px #333333;
 	border-style: solid;
 	border-radius: 2rem;
+}
+
+.recipe {
+	.recipe-image {
+		width: 100%;
+		max-height: 400px;
+		object-fit: cover;
+		border-radius: 4px;
+	}
+
+	.nutrition-facts {
+		border: 2px solid #000;
+		display: inline-block;
+		max-width: 280px;
+		padding: 3px 6px;
+		font-size: 14px;
+		line-height: 1.4;
+		background-color: #fff;
+		color: #000;
+
+		.serving-size {
+			font-size: 0.85rem;
+			margin: 2px 0;
+			border-bottom: 8px solid #000;
+			padding-bottom: 3px;
+		}
+
+		.calories {
+			border-bottom: 4px solid #000;
+			padding: 2px 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+
+			.calories-value {
+				font-size: 1.5rem;
+			}
+		}
+
+		.top-level-item {
+			border-bottom: 1px solid #000;
+			padding: 2px 0;
+			margin: 0;
+			font-weight: bold;
+		}
+
+		.sub-level-item {
+			border-bottom: 1px solid #000;
+			padding: 2px 0 2px 12px;
+			margin: 0;
+		}
+	}
 }

@@ -26,4 +26,17 @@ instructions:
   - Retire a tampa e asse por mais 15 minutos
   - Deixe esfriar completamente na grade antes de fatiar
 notes: A farinha de trigo integral pode ser substituída por farinha de centeio para um sabor mais intenso
+nutrition:
+  aiGenerated: true
+  servingSize: 100
+  calories: 252
+  totalFat: 1.2
+  saturatedFat: 0.2
+  transFat: 0
+  cholesterol: 0
+  Sodium: 0.4
+  carbs: 51.3
+  fiber: 4.5
+  sugar: 0.5
+  protein: 9.4
 ---
