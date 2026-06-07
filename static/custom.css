@@ -386,13 +386,14 @@ img.ios-screenshot {
 	border-radius: 2rem;
 }
 
+.recipe-image {
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
 .recipe {
-	.recipe-image {
-		width: 100%;
-		max-height: 400px;
-		object-fit: cover;
-		border-radius: 4px;
-	}
 
 	.recipe-meta-strip {
 		display: flex;
