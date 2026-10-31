@@ -45,7 +45,7 @@
     <h2 id="ingredients">
       {{ i18n "ingredients" }}
     </h2>
-    <ul>
+    <ul class="recipe-ingredients">
       {{ range .Page.Params.Ingredients }}
       <li>{{ . }}</li>
       {{ end }}
@@ -88,5 +88,32 @@
     <p><b>{{ i18n "source" }}:</b> <a href="{{ .Page.Params.Source }}">{{ .Page.Params.Source }}</a></p>
     {{ end }}
   </section>
+  {{ if .Page.Params.Ingredients }}
+  <dialog id="recipe-details" class="recipe-details">
+    <h3 class="recipe-details-title"></h3>
+    <div class="recipe-details-body"></div>
+    <form method="dialog">
+      <button type="submit" class="recipe-details-close">{{ i18n "close" }}</button>
+    </form>
+  </dialog>
+  <script type="application/json" id="recipe-parser-labels">
+    {{- dict
+      "ingredientDetails" (i18n "ingredientDetails")
+      "quantity" (i18n "quantity")
+      "unit" (i18n "unit")
+      "ingredient" (i18n "ingredient")
+      "alternativeUnits" (i18n "alternativeUnits")
+      "stepDetails" (i18n "stepDetails")
+      "time" (i18n "time")
+      "temperature" (i18n "temperature")
+      "alternativeTemperatures" (i18n "alternativeTemperatures")
+      "days" (i18n "days")
+      "hours" (i18n "hours")
+      "minutes" (i18n "minutes")
+      "seconds" (i18n "seconds")
+      | jsonify | safeJS -}}
+  </script>
+  <script type="module" src="{{ "js/recipe.js" | relURL }}"></script>
+  {{ end }}
 </article>
 {{ end }}

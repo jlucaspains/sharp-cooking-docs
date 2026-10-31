@@ -27,9 +27,9 @@ instructions:
   - Perform the first set of folds and reserve for another 15 minutes
   - Perform the second set of folds and reserve for another 15 minutes
   - Perform the third set of folds and make a window pane test. If gluten is not developed yet, repeat this step
-  - Ferment for 10-14 hours at room temperature (68F - 72F)
+  - Ferment for about 10 hours at room temperature (72F)
   - Shape and proof for about 2 hours
-  - Bake in covered dutch oven or La Cloche at 420F for 30 minutes
+  - Bake in covered dutch oven or La Cloche for 30 minutes at 420F
   - Uncover and bake for another 15 minutes
   - Let it cool completely on cooling rack before carving
 notes: Whole wheat flour may be replaced with rye flour for added taste

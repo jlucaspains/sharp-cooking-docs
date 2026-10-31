@@ -19,3 +19,17 @@ prepTime: Tempo de Preparo
 cookTime: Tempo de Cozimento
 totalTime: Tempo Total
 servings: Porções
+ingredientDetails: Detalhes do ingrediente
+quantity: Quantidade
+unit: Unidade
+ingredient: Ingrediente
+alternativeUnits: Unidades alternativas
+stepDetails: Detalhes da instrução
+time: Tempo
+temperature: Temperatura
+alternativeTemperatures: Temperatura alternativa
+days: dias
+hours: horas
+minutes: minutos
+seconds: segundos
+close: OK

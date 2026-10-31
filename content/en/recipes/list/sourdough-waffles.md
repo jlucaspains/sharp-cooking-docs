@@ -24,9 +24,9 @@ ingredients:
   - 1/2 tsp baking soda
 instructions:
   - Heat butter and milk together in a pan until the butter is melted and then let cool to room temperature.
-  - Mix all ingredients (all but eggs and baking soda) to form a thick batter, cover the bowl tightly with plastic wrap and let stand at room temperature for 8-14 hours. If you do this before going to bed, you'll have the batter ready for breakfast the next day.
-  - Preheat your waffle iron for 10-15 minutes.
-  - Uncover the batter and whisk in the eggs and baking soda. Pour 1/2 to 3/4 cups of batter on the hot waffle iron and close the lid. Let cook for 3-5 minutes until golden brown and crisp.
+  - Mix all ingredients (all but eggs and baking soda) to form a thick batter, cover the bowl tightly with plastic wrap and let stand at room temperature for about 8 hours. If you do this before going to bed, you'll have the batter ready for breakfast the next day.
+  - Preheat your waffle iron for 10 minutes.
+  - Uncover the batter and whisk in the eggs and baking soda. Pour 1/2 to 3/4 cups of batter on the hot waffle iron and close the lid. Let cook for 3 minutes until golden brown and crisp.
 notes: ""
 nutrition:
   aiGenerated: true

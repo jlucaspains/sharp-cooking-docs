@@ -24,9 +24,9 @@ ingredients:
   - 1/2 colher de chá de bicarbonato de sódio
 instructions:
   - Aqueça a manteiga e o leite juntos em uma panela até a manteiga derreter e, em seguida, deixe esfriar até a temperatura ambiente.
-  - Misture todos os ingredientes (exceto os ovos e o bicarbonato) para formar uma massa espessa, cubra a tigela com filme plástico e deixe descansar em temperatura ambiente por 8 a 14 horas. Se fizer isso antes de dormir, a massa estará pronta para o café da manhã do dia seguinte.
-  - Preaqueça a máquina de waffle por 10 a 15 minutos.
-  - Descubra a massa e incorpore os ovos e o bicarbonato de sódio. Despeje de 1/2 a 3/4 de xícara de massa na máquina de waffle quente e feche a tampa. Deixe cozinhar por 3 a 5 minutos até dourar e ficar crocante.
+  - Misture todos os ingredientes (exceto os ovos e o bicarbonato) para formar uma massa espessa, cubra a tigela com filme plástico e deixe descansar em temperatura ambiente por 8 horas. Se fizer isso antes de dormir, a massa estará pronta para o café da manhã do dia seguinte.
+  - Preaqueça a máquina de waffle por 10 minutos.
+  - Descubra a massa e incorpore os ovos e o bicarbonato de sódio. Despeje de 1/2 a 3/4 de xícara de massa na máquina de waffle quente e feche a tampa. Deixe cozinhar por 3 minutos até dourar e ficar crocante.
 notes: ""
 nutrition:
   aiGenerated: true

@@ -21,7 +21,7 @@ ingredients:
   - 1 tsp salt
   - 270g tapioca starch (polvilho)
 instructions:
-  - Preheat the oven to 180C (350F)
+  - Preheat the oven to 350F
   - Blend everything in a blender
   - Pour the batter into muffin cups (don't fill them too much because the batter rises)
   - Bake for about 25 minutes

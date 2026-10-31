@@ -27,7 +27,7 @@ instructions:
   - Realize a primeira série de dobras e reserve por mais 15 minutos
   - Realize a segunda série de dobras e reserve por mais 15 minutos
   - Realize a terceira série de dobras e faça o teste da janela. Se o glúten ainda não estiver desenvolvido, repita esta etapa
-  - Fermente por 10 a 14 horas em temperatura ambiente (20°C - 22°C)
+  - Fermente por volta de 10 horas em temperatura ambiente (22°C)
   - Modele o pão e deixe fermentar por cerca de 2 horas
   - Asse em dutch oven ou La Cloche tampado a 215°C por 30 minutos
   - Retire a tampa e asse por mais 15 minutos

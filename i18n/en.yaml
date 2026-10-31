@@ -19,3 +19,17 @@ prepTime: Prep Time
 cookTime: Cook Time
 totalTime: Total Time
 servings: Servings
+ingredientDetails: Ingredient details
+quantity: Quantity
+unit: Unit
+ingredient: Ingredient
+alternativeUnits: Alternative units
+stepDetails: Step details
+time: Time
+temperature: Temperature
+alternativeTemperatures: Alternative temperature
+days: days
+hours: hours
+minutes: minutes
+seconds: seconds
+close: OK
