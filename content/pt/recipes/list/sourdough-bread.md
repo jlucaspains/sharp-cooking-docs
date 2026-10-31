@@ -41,7 +41,7 @@ nutrition:
   saturatedFat: 0.2
   transFat: 0
   cholesterol: 0
-  Sodium: 0.4
+  Sodium: 394
   carbs: 51.3
   fiber: 4.5
   sugar: 0.5

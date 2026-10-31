@@ -48,7 +48,9 @@ The JSON rarely includes time or nutrition. Estimate them from the recipe conten
 - `totalTime` / `totalTimeISO`: sum of prep + cook (use `~` prefix if approximate)
 - ISO format: `PT30M` for 30 minutes, `PT1H30M` for 1h30, `PT15H` for 15 hours
 
-**Nutrition per 100g** — estimate from ingredient weights when all nutrition fields are 0. Mark as `aiGenerated: true`.
+**Nutrition per 100g** — estimate from ingredient weights when all nutrition fields are 0. Mark as `aiGenerated: true`. `cholesterol` and `Sodium` are in mg; the rest are in g. Sodium is ~39% of salt weight (1g salt ≈ 393mg sodium), plus sodium from other ingredients (baking soda/powder, cheese, eggs, milk).
+
+**Ingredient format** — put parenthetical notes at the end of the line (`1 Tbsp brown sugar (packed)`, not `1 Tbsp (packed) brown sugar`) so sharp-recipe-parser can read it.
 
 **Servings** — infer from recipe type and yield (e.g., "8 servings", "1 loaf", "4 portions").
 

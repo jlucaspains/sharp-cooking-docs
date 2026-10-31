@@ -18,7 +18,7 @@ ingredients:
   - 225 g de leite
   - 255 g de fermento natural branco (levain)
   - 1 colher de chá de sal
-  - 1 colher de sopa (cheia) de açúcar mascavo
+  - 1 colher de sopa de açúcar mascavo (cheia)
   - 170 g de farinha de trigo branca
   - 2 ovos
   - 1/2 colher de chá de bicarbonato de sódio
@@ -36,7 +36,7 @@ nutrition:
   saturatedFat: 8.5
   transFat: 0
   cholesterol: 85
-  Sodium: 0.57
+  Sodium: 406
   carbs: 28.4
   fiber: 0.8
   sugar: 3.5
